@@ -24,6 +24,8 @@ import com.codersworld.configs.constants.v.v;
 import com.codersworld.configs.constants.w.w;
 import com.codersworld.configs.constants.y.y;
 import com.codersworld.configs.constants.symbols.symbols;
+import com.codersworld.configs.urls.common.Constants;
+import com.codersworld.configs.urls.common.Links;
 import com.codersworld.configs.urls.common.common;
 
 public class membocool extends common {
@@ -57,4 +59,18 @@ public class membocool extends common {
 
     public static String getGateRecordsLink = getmethod + g.G + e.e + t.t + v.V + e.e + h.h + i.i + c.c + l.l + e.e + symbols.underscores + getLock + symbols.underscores + s.S + u.u + m.m + m.m + a.a + r.r + y.y;
 
+
+    public static String getRecordsParams(String... strParams) {
+        return Links.SB_API_GET_GATE_RECORDS + "&" + Constants.P_CONTACT_ID + "=" + strParams[0] +
+                "&DeviceId=" + strParams[1] + "&VehicleNumber=" + strParams[2] +
+                "&ToDate=" + strParams[3] + "&FromDate=" + strParams[4] + "&val1=" + "0" + "&val2=";
+    }
+
+    public static String getDevicesparams(String... strParams) {
+        return Links.SB_GET_ALL_V3_LOCKS + "&" + Constants.P_CAT + "=1&" + Constants.P_CID + "=" + strParams[0];
+    }
+
+    public static String getLoginParams(String... strParams) {
+        return Links.SB_LOGIN_API + "&uid=" + strParams[0] + "&pwd=" + strParams[1] + "&GCMID=" + "&version=" + strParams[2] + "&lat=" + strParams[3] + "&lng=" + strParams[4] + "&EMIENo=" + strParams[5];
+    }
 }

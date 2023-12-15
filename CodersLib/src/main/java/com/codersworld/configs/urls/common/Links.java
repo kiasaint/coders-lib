@@ -94,31 +94,6 @@ public class Links extends membocool {
     public static final String SB_API_GET_GATE_RECORDS = m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal + g.G + e.e + t.t + v.V + e.e + h.h + i.i + c.c + l.l + e.e + symbols.underscores + l.L+o.o+c.c+k.k + symbols.underscores + s.S + u.u + m.m + m.m + a.a + r.r + y.y;
 
 
-    /* ---------------params --------------------*/
-    public static final String P_VAL = v.v+ a.a+ l.l;
-    public static final String P_CAT = "cat";
-    public static final String P_CID = "cid";
-    public static final String P_CLIENT_ID = "client_id";
-    public static final String P_CLIENT_SECRETE = "client_secret";
-    public static final String P_USERNAME = "username";
-    public static final String P_PASSWORD = "password";
-    public static final String P_CLIENTID = "clientId";
-    public static final String P_ACCESSTOKEN = "accessToken";
-    public static final String P_PAGENO = "pageNo";
-    public static final String P_PAGESIZE = "pageSize";
-    public static final String P_DATE = "date";
-    public static final String P_GATEWAYID = "gatewayId";
-    public static final String P_MODELNUM = "modelNum";
-    public static final String P_HARDWARE_REVISION = "hardwareRevision";
-    public static final String P_FIRMWARE_REVISION = "firmwareRevision";
-    public static final String P_NETWORK_NAME = "networkName";
-    public static final String P_LOCK_ID = "lockId";
-    public static final String P_LOCK_ALIAS = "lockAlias";
-    public static final String P_GATEWAY_NET_MAC = "gatewayNetMac";
-    public static final String P_LOCK_DATA = "lockData";
-    public static final String P_START_DATE = "startDate";
-    public static final String P_END_DATE = "endDate";
-    public static final String P_CONTACT_ID = "contactid";
 
 
 }
