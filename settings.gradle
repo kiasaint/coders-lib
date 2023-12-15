@@ -1,0 +1,3 @@
+rootProject.name = "CodersLib Demo"
+include ':app'
+include ':CodersLib'
