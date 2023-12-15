@@ -4,17 +4,20 @@ import com.codersworld.configs.constants.a.a;
 import com.codersworld.configs.constants.c.c;
 import com.codersworld.configs.constants.e.e;
 import com.codersworld.configs.constants.h.h;
+import com.codersworld.configs.constants.i.i;
 import com.codersworld.configs.constants.k.k;
 import com.codersworld.configs.constants.n.n;
 import com.codersworld.configs.constants.numbers.numbers;
 import com.codersworld.configs.constants.o.o;
+import com.codersworld.configs.constants.p.p;
 import com.codersworld.configs.constants.t.t;
 import com.codersworld.configs.constants.u.u;
 import com.codersworld.configs.constants.symbols.symbols;
 import com.codersworld.configs.urls.common.common;
 
 public class tt extends common {
-    public static String getTTBaseUrl = getHttps + e.e + u.u + symbols.dots + t.t + t.t + getlock + getDotCom;
+    //https://euapi.ttlock.com
+    public static String getTTBaseUrl = getHttps + e.e + u.u +a.a+ p.p+ i.i+ symbols.dots + t.t + t.t + getlock + getDotCom;
 
     public static String getTTAuthTokenLink = symbols.b_slash + o.o + a.a + u.u + t.t + h.h + numbers.TWO + symbols.b_slash + t.t + o.o + c.c + k.k + e.e + n.n;
 
