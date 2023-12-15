@@ -41,7 +41,7 @@ public class Links extends membocool {
 
     /* ------- TTLOCK API URLS ---- */
     public static final String BASE_URL_TTLOCK = tt.getTTBaseUrl;
-     public static final String SB_API_TTLOCK_AUTH_TOKEN = symbols.b_slash + o.o + a.a + u.u + t.t + h.h + numbers.TWO + symbols.b_slash + t.t + o.o + c.c + k.k + e.e + n.n;
+     public static final String SB_API_TTLOCK_AUTH_TOKEN = symbols.b_slash + o.o + a.a + u.u + t.t + h.h + numbers.TWO + symbols.b_slash + t.t + o.o + k.k + e.e + n.n;
     public static final String SB_API_TTLOCK_USER_KEYLIST = symbols.b_slash + v.v + numbers.THREE + symbols.b_slash + k.k + e.e + y.y + symbols.b_slash + l.l + i.i + s.s + t.t;
 
     public static final String SB_API_TTLOCK_GATEWAY_LIST =  symbols.b_slash + v.v + numbers.THREE + symbols.b_slash + g.g + a.a + t.t + e.e + w.w + a.a + y.y + symbols.b_slash + l.l + i.i + s.s + t.t;
