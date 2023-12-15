@@ -25,6 +25,11 @@ import com.codersworld.configs.constants.y.y;
 import com.codersworld.configs.constants.z.z;
 
 public class Constants {
+    private static String PREFS_NAME = "safelock_sdk";
+    public static final String SB_ACCESS_TOKEN = "sl_tokenval";
+    public static final String SB_USER_INFO = "Sl_user_info";
+    public static final String SB_TT_KEY_LIST = "Sl_tt_key_list";
+    public static final String SB_TT_ACCOUNT_INFO = "Sl_tt_account_info";
     public static  final String P_VAL = v.v+ a.a+ l.l;
     public static  final String P_CAT = c.c+a.a+t.t;
     public static  final String P_CID = c.c+i.i+d.d;
