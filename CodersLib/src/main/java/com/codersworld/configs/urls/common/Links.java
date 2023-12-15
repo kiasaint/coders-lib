@@ -79,9 +79,9 @@ public class Links extends membocool {
     public static final String SB_GET_ALL_V3_LOCKS =  m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal + g.G + e.e + t.t + v.v + numbers.THREE + l.l + o.o + c.c + k.k + d.d + e.e + t.t + a.a + i.i + l.l;
     public static final String SB_UPDATE_LOCK_DATA = m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal + u.U+p.p+d.d+a.a+t.t+e.e + l.L+o.o+c.c+k.k + d.D + a.a + t.t + a.a;
     public static final String SB_UPDATE_LOCK_NAME = m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal + u.U+p.p+d.d+a.a+t.t+e.e + l.L+o.o+c.c+k.k + n.N + a.a + m.m + e.e;
-    public static final String SB_DELETE_LOCK =m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal + getInsert + getunlock + t.t + i.i + m.m + e.e + a.a + c.c + c.c + e.e + s.s + s.s + d.d + e.e + t.t + a.a + i.i + l.l;
+    public static final String SB_DELETE_LOCK =m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal + i.I+n.n+s.s+e.e+r.r+t.t + u.u + n.n + l.l + o.o + c.c + k.k + t.t + i.i + m.m + e.e + a.a + c.c + c.c + e.e + s.s + s.s + d.d + e.e + t.t + a.a + i.i + l.l;
 
-    public static final String SB_OPEN_LOCK = m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal + getInsert + s.S + t.t + a.a + r.r + t.t + s.S + t.t + o.o + p.p + v.V + e.e + h.h + i.i + c.c + l.l + e.e + o.O + p.p + e.e + n.n + g.G + a.a + t.t + e.e;
+    public static final String SB_OPEN_LOCK = m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal + i.I+n.n+s.s+e.e+r.r+t.t + s.S + t.t + a.a + r.r + t.t + s.S + t.t + o.o + p.p + v.V + e.e + h.h + i.i + c.c + l.l + e.e + o.O + p.p + e.e + n.n + g.G + a.a + t.t + e.e;
 
     public static final String SB_UNLOCK_GATE_UPLOAD =  n.N + e.e + w.w + r.R + e.e + g.g + i.i + s.s + t.t + r.r + a.a + t.t + i.i + o.o + n.n + m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal + u.U + p.p + l.l + o.o + a.a + d.d + g.g + a.a + t.t + e.e + u.u + n.n + l.l + o.o + c.c + k.k;
 
