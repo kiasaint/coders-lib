@@ -11,8 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-import com.codersworld.configs.Tags;
-import com.codersworld.configs.urls.vehicletrack.membocool;
+ import com.codersworld.configs.urls.vehicletrack.membocool;
 import com.dhanuka.safeobuddy.R;
 import com.google.gson.Gson;
 
