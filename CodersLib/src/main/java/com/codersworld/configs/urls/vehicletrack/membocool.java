@@ -27,63 +27,34 @@ import com.codersworld.configs.constants.symbols.symbols;
 import com.codersworld.configs.urls.common.common;
 
 public class membocool extends common {
-    public static String getMembocoolBaseUrl() {
-        return getHttps() + getvehicletrack() + symbols.dots + getmembocool() + getDotCom();
-    }
+    public static String getMembocoolBaseUrl = getHttps + getvehicletrack + symbols.dots + getmembocool + getDotCom;
 
-    public static String getSafeobuddyAspx() {
-        return s.S + a.a + f.f + e.e + o.o + b.b + u.u + d.d + d.d + y.y + getaspx() + symbols.question;
-    }
+    public static String getSafeobuddyAspx = s.S + a.a + f.f + e.e + o.o + b.b + u.u + d.d + d.d + y.y + getaspx + symbols.question;
 
-    public static String getConServiceAspx() {
-        return c.C + o.o + n.n + s.S + e.e + r.r + v.v + i.i + c.c + e.e + getaspx() + symbols.question;
-    }
+    public static String getConServiceAspx = c.C + o.o + n.n + s.S + e.e + r.r + v.v + i.i + c.c + e.e + getaspx + symbols.question;
 
-    public static String getSafeobuddyApiMethod() {
-        return getSafeobuddyAspx() + getmethod() + a.a + p.p + s.s + s.s;
-    }
+    public static String getSafeobuddyApiMethod = getSafeobuddyAspx + getmethod + a.a + p.p + s.s + s.s;
 
-    public static String getLoginApiLink() {
-        return getmethod() + l.L + o.o + g.g + i.i + n.n + v.V + a.a + l.l + i.i + d.d + a.a + t.t + i.i + o.o + n.n + numbers.ONE;
-    }
+    public static String getLoginApiLink = getmethod + l.L + o.o + g.g + i.i + n.n + v.V + a.a + l.l + i.i + d.d + a.a + t.t + i.i + o.o + n.n + numbers.ONE;
 
-    public static String getAllV3LocksLink() {
-        return getmethod() + g.G + e.e + t.t + getV3() + getlock() + getdetail();
-    }
+    public static String getAllV3LocksLink = getmethod + g.G + e.e + t.t + getV3 + getlock + getdetail;
 
-    public static String getupdateLockDataLink() {
-        return getmethod() + getUpdate() + getLock() + d.D + a.a + t.t + a.a;
-    }
+    public static String getupdateLockDataLink = getmethod + getUpdate + getLock + d.D + a.a + t.t + a.a;
 
-    public static String getupdateLockNameLink() {
-        return getmethod() + getUpdate() + getLock() + n.N + a.a + m.m + e.e;
-    }
+    public static String getupdateLockNameLink = getmethod + getUpdate + getLock + n.N + a.a + m.m + e.e;
 
-    public static String getDeleteLockLink() {
-        return getmethod() + getInsert() + getunlock() + t.t + i.i + m.m + e.e + a.a + c.c + c.c + e.e + s.s + s.s + getdetail();
-    }
+    public static String getDeleteLockLink = getmethod + getInsert + getunlock + t.t + i.i + m.m + e.e + a.a + c.c + c.c + e.e + s.s + s.s + getdetail;
 
-    public static String getOpenLockLink() {
-        return getmethod() + getInsert() + s.S + t.t + a.a + r.r + t.t + s.S + t.t + o.o + p.p + v.V + e.e + h.h + i.i + c.c + l.l + e.e + o.O + p.p + e.e + n.n + g.G + a.a + t.t + e.e;
-    }
+    public static String getOpenLockLink = getmethod + getInsert + s.S + t.t + a.a + r.r + t.t + s.S + t.t + o.o + p.p + v.V + e.e + h.h + i.i + c.c + l.l + e.e + o.O + p.p + e.e + n.n + g.G + a.a + t.t + e.e;
 
-    public static String getUploadUnlockGateLink() {
-        return n.N + e.e + w.w + r.R + e.e + g.g + i.i + s.s + t.t + r.r + a.a + t.t + i.i + o.o + n.n + getmethod() + u.U + p.p + l.l + o.o + a.a + d.d + g.g + a.a + t.t + e.e + getunlock();
-    }
+    public static String getUploadUnlockGateLink = n.N + e.e + w.w + r.R + e.e + g.g + i.i + s.s + t.t + r.r + a.a + t.t + i.i + o.o + n.n + getmethod + u.U + p.p + l.l + o.o + a.a + d.d + g.g + a.a + t.t + e.e + getunlock;
 
-    public static String getSaveLockStatusLink() {
-        return getmethod() + s.S + a.a + v.v + e.e + getLock() + s.S + t.t + a.a + t.t + u.u + s.s;
-    }
+    public static String getSaveLockStatusLink = getmethod + s.S + a.a + v.v + e.e + getLock + s.S + t.t + a.a + t.t + u.u + s.s;
 
-    public static String getAddNewLockLink() {
-        return getmethod() + a.A + d.d + d.d + symbols.underscores + getLock() + symbols.underscores + n.N + e.e + w.w;
-    }
+    public static String getAddNewLockLink = getmethod + a.A + d.d + d.d + symbols.underscores + getLock + symbols.underscores + n.N + e.e + w.w;
 
-    public static String getCheckBTAccessLink() {
-        return getConServiceAspx() + getmethod() + c.c + h.h + e.e + c.c + k.k + b.b + o.o + t.t + h.h + l.l + o.o + c.c + k.k + a.a + c.c + c.c + e.e + s.s + s.s;
-    }
+    public static String getCheckBTAccessLink = getConServiceAspx + getmethod + c.c + h.h + e.e + c.c + k.k + b.b + o.o + t.t + h.h + l.l + o.o + c.c + k.k + a.a + c.c + c.c + e.e + s.s + s.s;
 
-    public static String getGateRecordsLink() {
-        return getmethod() + g.G + e.e + t.t + v.V + e.e + h.h + i.i + c.c + l.l + e.e + symbols.underscores + getLock() + symbols.underscores + s.S + u.u + m.m + m.m + a.a + r.r + y.y;
-    }
+    public static String getGateRecordsLink = getmethod + g.G + e.e + t.t + v.V + e.e + h.h + i.i + c.c + l.l + e.e + symbols.underscores + getLock + symbols.underscores + s.S + u.u + m.m + m.m + a.a + r.r + y.y;
+
 }

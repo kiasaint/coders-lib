@@ -25,11 +25,11 @@ public class SplashActivity extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        String SB_LOGIN_API = membocool.getLoginApiLink();
-        String SB_GET_ALL_V3_LOCKS = membocool.getAllV3LocksLink();
-        String SB_UPDATE_LOCK_DATA = membocool.getupdateLockDataLink();
-        String SB_UPDATE_LOCK_NAME = membocool.getupdateLockNameLink();
-        String SB_DELETE_LOCK  = membocool.getDeleteLockLink();
+        String SB_LOGIN_API = membocool.getLoginApiLink;
+        String SB_GET_ALL_V3_LOCKS = membocool.getAllV3LocksLink;
+        String SB_UPDATE_LOCK_DATA = membocool.getupdateLockDataLink;
+        String SB_UPDATE_LOCK_NAME = membocool.getupdateLockNameLink;
+        String SB_DELETE_LOCK  = membocool.getDeleteLockLink;
         Log.e("SB_LOGIN_API",SB_LOGIN_API);
         Log.e("SB_GET_ALL_V3_LOCKS",SB_GET_ALL_V3_LOCKS);
         Log.e("SB_UPDATE_LOCK_DATA",SB_UPDATE_LOCK_DATA);

@@ -19,20 +19,12 @@ import com.codersworld.configs.constants.z.z;
 import com.codersworld.configs.urls.common.common;
 
 public class mmthinkbiz extends common {
-    //mmthinkbiz.com/MobileService.aspx
-    public static String getmmthinkbiz() {
-        return m.m + m.m + t.t + h.h + i.i + n.n + k.k + b.b + i.i + z.z;
-    }
+    public static String getmmthinkbiz = m.m + m.m + t.t + h.h + i.i + n.n + k.k + b.b + i.i + z.z;
 
-    public static String getMobileService() {
-        return m.M+ o.o+b.b+i.i+ l.l+ e.e+ s.S+e.e+ r.r+ v.v+i.i+ c.c+e.e;
-    }
+    public static String getMobileService = m.M + o.o + b.b + i.i + l.l + e.e + s.S + e.e + r.r + v.v + i.i + c.c + e.e;
 
-    public static String getMTBMidUrl() {
-        return getmmthinkbiz()+getDotCom()+getMobileService()+getaspx();
-    }
+    public static String getMTBMidUrl = getmmthinkbiz + getDotCom + getMobileService + getaspx;
 
-    public static String getMTBBaseUrl() {
-        return getHttp() + getMTBMidUrl();
-    }
+    public static String getMTBBaseUrl = getHttp + getMTBMidUrl;
+
 }
