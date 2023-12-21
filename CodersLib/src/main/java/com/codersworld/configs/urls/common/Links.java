@@ -76,7 +76,7 @@ public class Links extends membocool {
     public static final String SB_API_METHOD = s.S + a.a + f.f + e.e + o.o + b.b + u.u + d.d + d.d + y.y + symbols.dots+a.a+s.s+p.p+ x.x + symbols.question + m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal + a.a + p.p + s.s + s.s;
     public static final String SB_LOGIN_API = m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal + l.L + o.o + g.g + i.i + n.n + v.V + a.a + l.l + i.i + d.d + a.a + t.t + i.i + o.o + n.n + numbers.ONE;
 
-    public static final String SB_GET_ALL_V3_LOCKS =  m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal + g.G + e.e + t.t + v.v + numbers.THREE + l.l + o.o + c.c + k.k + d.d + e.e + t.t + a.a + i.i + l.l;
+    public static final String SB_GET_ALL_V3_LOCKS =  m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal + g.G + e.e + t.t + v.V + numbers.THREE + l.l + o.o + c.c + k.k + d.d + e.e + t.t + a.a + i.i + l.l;
     public static final String SB_UPDATE_LOCK_DATA = m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal + u.U+p.p+d.d+a.a+t.t+e.e + l.L+o.o+c.c+k.k + d.D + a.a + t.t + a.a;
     public static final String SB_UPDATE_LOCK_NAME = m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal + u.U+p.p+d.d+a.a+t.t+e.e + l.L+o.o+c.c+k.k + n.N + a.a + m.m + e.e;
     public static final String SB_DELETE_LOCK =m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal + i.I+n.n+s.s+e.e+r.r+t.t + u.u + n.n + l.l + o.o + c.c + k.k + t.t + i.i + m.m + e.e + a.a + c.c + c.c + e.e + s.s + s.s + d.d + e.e + t.t + a.a + i.i + l.l;
