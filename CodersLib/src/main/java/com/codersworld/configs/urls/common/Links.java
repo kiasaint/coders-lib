@@ -39,10 +39,12 @@ public class Links extends membocool {
     public static final String SB_TT_ACCOUNT_INFO = "Sl_tt_account_info";
 
 
-    /* ------- TTLOCK API URLS ---- */
+    /* ------- TTLOCK API URLS ---- *///"/v3/key/get"
     public static final String BASE_URL_TTLOCK = tt.getTTBaseUrl;
+    public static final String BASE_URL_TTLOCK1 = tt.getTTBaseUrl1;
      public static final String SB_API_TTLOCK_AUTH_TOKEN = symbols.b_slash + o.o + a.a + u.u + t.t + h.h + numbers.TWO + symbols.b_slash + t.t + o.o + k.k + e.e + n.n;
-    public static final String SB_API_TTLOCK_USER_KEYLIST = symbols.b_slash + v.v + numbers.THREE + symbols.b_slash + k.k + e.e + y.y + symbols.b_slash + l.l + i.i + s.s + t.t;
+     public static final String SB_API_TTLOCK_USER_KEYLIST = symbols.b_slash + v.v + numbers.THREE + symbols.b_slash + k.k + e.e + y.y + symbols.b_slash + l.l + i.i + s.s + t.t;
+     public static final String SB_API_TTLOCK_GET_LOCKDATA = symbols.b_slash + v.v + numbers.THREE + symbols.b_slash + k.k + e.e + y.y + symbols.b_slash + g.g+e.e+t.t;
 
     public static final String SB_API_TTLOCK_GATEWAY_LIST =  symbols.b_slash + v.v + numbers.THREE + symbols.b_slash + g.g + a.a + t.t + e.e + w.w + a.a + y.y + symbols.b_slash + l.l + i.i + s.s + t.t;
 

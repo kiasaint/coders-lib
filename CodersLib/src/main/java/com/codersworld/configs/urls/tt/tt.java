@@ -24,6 +24,7 @@ import com.codersworld.configs.urls.common.common;
 
 public class tt extends common {
      public static String getTTBaseUrl = getHttps + e.e + u.u + a.a + p.p + i.i + symbols.dots + t.t + t.t + getlock + getDotCom;
+      public static String getTTBaseUrl1 = getHttps + e.e + u.u + a.a + p.p + i.i + symbols.dots + s.s+c.c+i.i+e.e+n.n+e.e+r.r + getDotCom;
 
     public static String getTTAuthTokenLink = symbols.b_slash + o.o + a.a + u.u + t.t + h.h + numbers.TWO + symbols.b_slash + t.t + o.o + c.c + k.k + e.e + n.n;
 

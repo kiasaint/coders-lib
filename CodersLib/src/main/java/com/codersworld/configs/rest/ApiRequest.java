@@ -56,6 +56,14 @@ public interface ApiRequest {
     @FormUrlEncoded
     Call<String> ttlockAuth(@Field(Constants.P_CLIENT_ID) String clientId, @Field(Constants.P_CLIENT_SECRETE) String clientSecret, @Field(Constants.P_USERNAME) String username, @Field(Constants.P_PASSWORD) String password);
 
+    @POST(Links.SB_API_TTLOCK_GET_LOCKDATA)
+    @FormUrlEncoded
+    Call<String> getLockData(@Field(Constants.P_CLIENT_ID) String clientId,
+                             @Field(Constants.P_CLIENT_SECRETE) String accessToken,
+                             @Field(Constants.P_LOCK_ID) String lockId,
+                             @Field(Constants.P_DATE) String date
+    );
+//l.l+o.o+c.c+k.kId
     @GET(Links.SB_API_TTLOCK_USER_KEYLIST)
     Call<ResponseBody> getUserKeyList(@QueryMap Map<String, String> params);
 
