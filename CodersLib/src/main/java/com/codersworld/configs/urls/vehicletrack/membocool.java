@@ -73,4 +73,7 @@ public class membocool extends common {
     public static String getLoginParams(String... strParams) {
         return Links.SB_LOGIN_API + "&uid=" + strParams[0] + "&pwd=" + strParams[1] + "&GCMID=" + "&version=" + strParams[2] + "&lat=" + strParams[3] + "&lng=" + strParams[4] + "&EMIENo=" + strParams[5];
     }
+    public static String getUpdateDataParams(String... strParams) {
+        return Links.SB_UPDATE_LOCK_DATA_CHILD + "&"+Constants.P_LOCK_DATA+"=" + strParams[0].replace("+", "%2B") + "&"+Constants.P_LOCK_MAC_ID+"=" + strParams[1] + "&"+Constants.P_LOCK_ID_CAPS+"=" + strParams[2]+ "&loginuserName=" + strParams[3];
+    }
 }
