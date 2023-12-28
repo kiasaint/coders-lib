@@ -59,7 +59,7 @@ public interface ApiRequest {
     @POST(Links.SB_API_TTLOCK_GET_LOCKDATA)
     @FormUrlEncoded
     Call<String> getLockData(@Field(Constants.P_CLIENT_ID) String clientId,
-                             @Field(Constants.P_CLIENT_SECRETE) String accessToken,
+                             @Field(Constants.P_ACCESSTOKEN) String accessToken,
                              @Field(Constants.P_LOCK_ID) String lockId,
                              @Field(Constants.P_DATE) String date
     );
