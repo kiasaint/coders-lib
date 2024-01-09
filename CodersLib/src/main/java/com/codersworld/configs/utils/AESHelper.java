@@ -22,7 +22,7 @@ public class AESHelper {
         String responses = "";
         try {
             responses = DhanukaMain.SafeOBuddyDecryptUtils(response);
-            Log.e("responses12",responses);
+           // Log.e("responses12",responses);
             JSONObject jsonObject = new JSONObject(responses);
             int success = jsonObject.getInt("success");
             if (success == 9999) {
