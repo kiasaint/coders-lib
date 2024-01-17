@@ -177,4 +177,6 @@ public interface ApiRequest {
     @GET(Links.SB_API_CHECK_BLUETOOTH_ACCESS)
     Call<String> checkBluetoothAccess(@Query(Constants.P_CONTACT_ID) String contactid);
 
+    @GET(Links.SB_API_GET_DEVICE_INFO)////lockid,contactid,token
+    Call<String> getDeviceInfo(@Query(Constants.P_LOCK_ID_SMALL) String lockid,@Query(Constants.P_CONTACT_ID) String contactid,@Query(Constants.P_TOKEN) String token);
 }

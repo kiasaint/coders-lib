@@ -48,6 +48,7 @@ public class Constants {
     public static  final String P_FIRMWARE_REVISION = f.f+ i.i+ r.r+ m.m+ w.w+a.a+r.r+ e.e+r.R+e.e+v.v+i.i+ s.s+i.i+ o.o+ n.n;
     public static  final String P_NETWORK_NAME = n.n+e.e+t.t+w.w+o.o+r.r+ k.k+n.N+a.a+m.m+e.e;
     public static  final String P_LOCK_ID = l.l+o.o+c.c+k.k+i.I+d.d;
+    public static  final String P_LOCK_ID_SMALL = l.l+o.o+c.c+k.k+i.i+d.d;
     public static  final String P_LOCK_ID_CAPS = l.L+o.o+c.c+k.k+i.I+d.D;
     public static  final String P_LOCK_ALIAS = l.l+o.o+c.c+k.k+a.A+l.l+i.i+a.a+s.s;
     public static  final String P_GATEWAY_NET_MAC = g.g+a.a+t.t+e.e+w.w+a.a+y.y+n.N+e.e+t.t+m.M+a.a+c.c;
@@ -59,4 +60,5 @@ public class Constants {
     //ContactID
     public static  final String P_CONTACT_ID_CAPS = c.C+o.o+n.n+t.t+a.a+c.c+t.t+i.I+d.d;
     public static  final String P_CONTACT_ID = c.c+o.o+n.n+t.t+a.a+c.c+t.t+i.i+d.d;
+    public static  final String P_TOKEN = t.t+o.o+k.k+e.e+n.n;
 }
