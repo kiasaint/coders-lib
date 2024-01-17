@@ -66,6 +66,11 @@ public class membocool extends common {
                 "&ToDate=" + strParams[3] + "&FromDate=" + strParams[4] + "&val1=" + "0" + "&val2=";
     }
 
+    public static String getSaveLockStatusParams(String... strParams) {
+        return Links.SB_API_SAVE_LOCK_STATUS+"&type=1"   + "&LockId=" + strParams[0] + "&Createdby=" +strParams[1]
+                + "&LockName=" + strParams[2] + "&Status=" + strParams[3] + "&LoginUserName=" +strParams[4];
+    }
+
     public static String getDevicesparams(String... strParams) {
         return Links.SB_GET_ALL_V3_LOCKS + "&" + Constants.P_CAT + "=1&" + Constants.P_CID + "=" + strParams[0];
     }

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class DeviceInfoBean implements Serializable {
     @SerializedName("success")
-    String success;
+    int success;
     @SerializedName("returnds")
     ArrayList<InfoBean> returnds;
 
@@ -19,11 +19,11 @@ public class DeviceInfoBean implements Serializable {
         this.returnds = returnds;
     }
 
-    public String getSuccess() {
+    public int getSuccess() {
         return success;
     }
 
-    public void setSuccess(String success) {
+    public void setSuccess(int success) {
         this.success = success;
     }
 
@@ -38,6 +38,26 @@ public class DeviceInfoBean implements Serializable {
         String Lockdata;
         @SerializedName("VehicleNumber")
         String VehicleNumber;
+        @SerializedName("GPSDeviceId")
+        String GPSDeviceId;
+        @SerializedName("GPSDeviceCode")
+        String GPSDeviceCode;
+
+        public String getGPSDeviceId() {
+            return GPSDeviceId;
+        }
+
+        public void setGPSDeviceId(String GPSDeviceId) {
+            this.GPSDeviceId = GPSDeviceId;
+        }
+
+        public String getGPSDeviceCode() {
+            return GPSDeviceCode;
+        }
+
+        public void setGPSDeviceCode(String GPSDeviceCode) {
+            this.GPSDeviceCode = GPSDeviceCode;
+        }
 
         public String getLockId() {
             return LockId;
