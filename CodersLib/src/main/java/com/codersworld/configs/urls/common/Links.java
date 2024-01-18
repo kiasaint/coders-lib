@@ -95,8 +95,8 @@ public class Links extends membocool {
     public static final String SB_API_CHECK_BLUETOOTH_ACCESS = c.C + o.o + n.n + s.S + e.e + r.r + v.v + i.i + c.c + e.e + symbols.dots+a.a+s.s+p.p+ x.x + symbols.question + m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal + c.c + h.h + e.e + c.c + k.k + b.b + o.o + t.t + h.h + l.l + o.o + c.c + k.k + a.a + c.c + c.c + e.e + s.s + s.s;
     public static final String SB_API_GET_DEVICE_INFO = c.C + o.o + n.n + s.S + e.e + r.r + v.v + i.i + c.c + e.e + symbols.dots+a.a+s.s+p.p+ x.x + symbols.question + m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal +g.g+e.e+t.t+l.l+o.o+c.c+k.k+m.m+a.a+c.c+d.d+e.e+t.t+a.a+i.i+l.l+s.s;
     public static final String SB_API_GET_GATE_RECORDS = m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal + g.G + e.e + t.t + v.V + e.e + h.h + i.i + c.c + l.l + e.e + symbols.underscores + l.L+o.o+c.c+k.k + symbols.underscores + s.S + u.u + m.m + m.m + a.a + r.r + y.y;
-
-
+    public static final String SB_API_GET_GATE_RECORDS_DATA = c.C + o.o + n.n + s.S + e.e + r.r + v.v + i.i + c.c + e.e + symbols.dots+a.a+s.s+p.p+ x.x + symbols.question + m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal +g.G+e.e+t.t+v.V+e.e+h.h+i.i+c.c+l.l+e.e+symbols.underscores+l.L+o.o+c.c+k.k+symbols.underscores+s.S+u.u+m.m+m.m+a.a+r.r+y.y+symbols.underscores+o.O+t.t+h.h+e.e+r.r;
+    public static final String SB_API_SAVE_LOCK_STATUS_DATA = c.C + o.o + n.n + s.S + e.e + r.r + v.v + i.i + c.c + e.e + symbols.dots+a.a+s.s+p.p+ x.x + symbols.question +m.m+e.e+t.t+h.h+o.o+d.d+symbols.equal + s.S + a.a + v.v + e.e + l.L+o.o+c.c+k.k + s.S + t.t + a.a + t.t + u.u + s.s+symbols.underscores+w.W+e.e+b.b;
 
 
 }

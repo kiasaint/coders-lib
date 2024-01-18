@@ -179,4 +179,8 @@ public interface ApiRequest {
 
     @GET(Links.SB_API_GET_DEVICE_INFO)////lockid,contactid,token
     Call<String> getDeviceInfo(@Query(Constants.P_LOCK_ID_SMALL) String lockid,@Query(Constants.P_CONTACT_ID) String contactid,@Query(Constants.P_TOKEN) String token);
+    @GET(Links.SB_API_GET_GATE_RECORDS_DATA)
+    Call<String> getGateRecordsData(@Query("FromDate") String FromDate,@Query("ToDate") String ToDate,@Query("VehicleNumber") String VehicleNumber,@Query("DeviceId") String DeviceId,@Query("contactid") String contactid,@Query("type") String type,@Query("val1") String val1,@Query("val2") String val2);
+    @GET(Links.SB_API_SAVE_LOCK_STATUS_DATA)
+    Call<String> saveGateRecords(@Query("Createdby") String Createdby,@Query("LockID") String LockID,@Query("LoginUserName") String LoginUserName,@Query("Status") String Status,@Query("type") String type,@Query("LockName") String LockName,@Query("type1") String type1);
 }

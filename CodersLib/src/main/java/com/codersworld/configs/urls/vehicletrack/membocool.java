@@ -61,7 +61,7 @@ public class membocool extends common {
 
 
     public static String getRecordsParams(String... strParams) {
-        return Links.SB_API_GET_GATE_RECORDS + "Other&" + Constants.P_CONTACT_ID + "=" + strParams[0] +
+        return Links.SB_API_GET_GATE_RECORDS + "&" + Constants.P_CONTACT_ID + "=" + strParams[0] +
                 "&DeviceId=" + strParams[1] + "&VehicleNumber=" + strParams[2] +
                 "&ToDate=" + strParams[3] + "&FromDate=" + strParams[4] + "&val1=" + "0" + "&val2=";
     }
