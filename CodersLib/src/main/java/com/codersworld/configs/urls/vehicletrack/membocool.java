@@ -61,13 +61,17 @@ public class membocool extends common {
 
 
     public static String getRecordsParams(String... strParams) {
-        return Links.SB_API_GET_GATE_RECORDS + "&" + Constants.P_CONTACT_ID + "=" + strParams[0] +
+        return Links.SB_API_GET_GATE_RECORDS + "Other&" + Constants.P_CONTACT_ID + "=" + strParams[0] +
                 "&DeviceId=" + strParams[1] + "&VehicleNumber=" + strParams[2] +
                 "&ToDate=" + strParams[3] + "&FromDate=" + strParams[4] + "&val1=" + "0" + "&val2=";
     }
 
     public static String getSaveLockStatusParams(String... strParams) {
         return Links.SB_API_SAVE_LOCK_STATUS+"&type=1"   + "&LockId=" + strParams[0] + "&Createdby=" +strParams[1]
+                + "&LockName=" + strParams[2] + "&Status=" + strParams[3] + "&LoginUserName=" +strParams[4];
+    }
+    public static String getSaveLockStatusParams1(String... strParams) {
+        return Links.SB_API_SAVE_LOCK_STATUS+"_Web&type=6&type=TTLock"   + "&LockId=" + strParams[0] + "&Createdby=" +strParams[1]
                 + "&LockName=" + strParams[2] + "&Status=" + strParams[3] + "&LoginUserName=" +strParams[4];
     }
 
