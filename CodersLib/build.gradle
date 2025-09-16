@@ -1,8 +1,11 @@
 plugins {
     id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android'
+    id 'kotlin-parcelize'
+    //id 'kotlin-android-extensions'
     id 'maven-publish'
 }
-
 android {
     namespace 'com.codersworld.configs'
     compileSdk 36
@@ -11,6 +14,7 @@ android {
         minSdk 23
         targetSdk 36
 
+        vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
     }
@@ -49,12 +53,11 @@ dependencies {
     //implementation 'com.android.volley:volley:1.1.0'
 
 }
-/*
 publishing {
     publications {
         release(MavenPublication) {
-            groupId = 'com.github.kiasaint'
-            artifactId = 'SafeSDK'
+            groupId = 'com.github.Ram-Kuma-wat'
+            artifactId = 'coders-lib'
             version = '1.0.0'
 
             afterEvaluate {
@@ -62,4 +65,6 @@ publishing {
             }
         }
     }
-}*/
+}
+
+
