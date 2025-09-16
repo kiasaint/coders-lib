@@ -66,4 +66,6 @@ dependencies {
     //implementation 'com.github.RkTechies:safe-lib:1.0.1'
 }
 apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
+//apply plugin: 'kotlin-android-extensions'
+apply plugin: 'org.jetbrains.kotlin.android'
+apply plugin: 'kotlin-parcelize'
