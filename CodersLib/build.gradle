@@ -56,7 +56,8 @@ dependencies {
 publishing {
     publications {
         release(MavenPublication) {
-            groupId = 'com.github.Ram-Kuma-wat'
+            groupId = 'com.github.kiasaint'
+            //groupId = 'com.github.Ram-Kuma-wat'
             artifactId = 'coders-lib'
             version = '1.0.0'
 
