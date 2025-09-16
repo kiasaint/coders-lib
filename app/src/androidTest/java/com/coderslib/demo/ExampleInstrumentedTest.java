@@ -1,4 +1,4 @@
-package com.dhanuka.safeobuddy;
+package com.coderslib.demo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,4 +1,4 @@
-package com.dhanuka.safeobuddy.scanner.activity;
+package com.coderslib.demo.scanner.activity;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
  import com.codersworld.configs.urls.vehicletrack.membocool;
- import com.dhanuka.safeobuddy.R;
+ import com.coderslib.demo.R;
 
 
 public class SplashActivity extends AppCompatActivity  {

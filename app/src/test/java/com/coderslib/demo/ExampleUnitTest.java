@@ -1,4 +1,4 @@
-package com.dhanuka.safeobuddy;
+package com.coderslib.demo;
 
 import org.junit.Test;
 
