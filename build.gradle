@@ -7,15 +7,10 @@ buildscript {
         mavenCentral()
         mavenLocal()
         maven { url "https://jitpack.io" }
-       /* maven {
-            url 'https://jitpack.io'
-            credentials { username authToken }
-        }*/
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:8.6.0'
-         classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:2.2.0'
-       // classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+         classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.24'
     }
 }
 
@@ -25,10 +20,6 @@ allprojects {
         jcenter()
         mavenCentral()
         maven { url "https://jitpack.io" }
-       /* maven {
-            url "https://jitpack.io"
-            credentials { username authToken }
-        }*/
     }
 }
 
