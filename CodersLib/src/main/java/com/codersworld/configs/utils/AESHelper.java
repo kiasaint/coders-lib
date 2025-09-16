@@ -38,4 +38,34 @@ public class AESHelper {
         return responses;
     }
 
+    public String pathSafeEncryption(Context context, String strParam,String token,String userid) {
+         try {
+            strParam = DhanukaMain.PathsafeEncryptUtils(strParam, token, userid);
+            return strParam;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return "";
+    }
+
+    public String pathSafeDecryption(String response, final Activity context) {
+        String responses = "";
+        try {
+            responses = DhanukaMain.PathsafeDecryptUtils(response);
+           // Log.e("responses12",responses);
+            JSONObject jsonObject = new JSONObject(responses);
+            int success = jsonObject.getInt("success");
+            if (success == 9999) {
+                return "";
+            } else {
+                return responses;
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return responses;
+    }
+
 }
