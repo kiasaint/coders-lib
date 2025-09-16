@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.library'
+    id 'maven-publish'
 }
 
 android {
@@ -48,3 +49,17 @@ dependencies {
     //implementation 'com.android.volley:volley:1.1.0'
 
 }
+/*
+publishing {
+    publications {
+        release(MavenPublication) {
+            groupId = 'com.github.kiasaint'
+            artifactId = 'SafeSDK'
+            version = '1.0.0'
+
+            afterEvaluate {
+                from components.release
+            }
+        }
+    }
+}*/
