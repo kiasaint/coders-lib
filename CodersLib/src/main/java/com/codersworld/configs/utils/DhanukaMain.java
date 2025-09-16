@@ -45,7 +45,8 @@ public class DhanukaMain {
         text = text + "&tkv=" + val1 + "&contvals=" + val2;
         Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
         byte[] keyBytes = new byte[16];
-        String key = "safe@GCKS@#^wji@";
+        //String key = "safe@GCKS@#^wji@";
+        String key = "pathsecur@987ggn";
         byte[] b = key.getBytes("UTF-8");
         int len = b.length;
         if (len > keyBytes.length) {
@@ -102,7 +103,8 @@ public class DhanukaMain {
 
     public static String SafeOBuddyDecryptUtils(String text) throws Exception {
         Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
-        String key = "safe@GCKS@#^wji@";
+        //String key = "safe@GCKS@#^wji@";
+        String key = "pathsecur@987ggn";
         byte[] keyBytes = new byte[16];
         byte[] b = key.getBytes("UTF-8");
         int len = b.length;
